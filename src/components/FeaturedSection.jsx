@@ -25,11 +25,11 @@ const FeaturedSection = () => {
         <div className="relative h-20 w-full overflow-hidden rounded-2xl backdrop-blur-md bg-white/10 border border-white/10 flex items-center">
           <div className="flex w-max animate-marquee gap-12 items-center">
             {[...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos].map((src, index) => (
-              <div key={index} className="flex-shrink-0 px-4">
+              <div key={index} className="flex-shrink-0 px-4 flex items-center justify-center"> {/* Added flex alignment */}
                 <img
                   src={src}
                   alt={`Logo ${index}`}
-                  className="h-10 object-contain"
+                  className="h-10 object-contain max-w-[80px]" // Added max-w
                 />
               </div>
             ))}
