@@ -70,7 +70,7 @@ const CopyTradingFeaturesSection = () => {
     return (
         <section className=" bg-gradient-to-r from-[#181539] via-[#282454] to-[#131128] text-white py-16 px-4 md:px-8">
             <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                <h2 className="text-3xl lg:text-[60px] md:text-4xl font-bold mb-4">
                     Copy Trading Features
                 </h2>
                 <p className="text-gray-400 max-w-xl mx-auto mb-12">

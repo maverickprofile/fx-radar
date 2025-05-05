@@ -13,8 +13,16 @@ const logos = [
 
 const FeaturedSection = () => {
   return (
-    <section className="bg-gradient-to-r from-[#181539] via-[#282454] to-[#131128] py-12 px-4 text-white overflow-hidden">
-      <div className="max-w-7xl mx-auto text-center">
+    <section className="relative bg-gradient-to-r from-[#181539] via-[#282454] to-[#131128] py-12 px-4 text-white overflow-hidden">
+      {/* Top blend */}
+      <div
+        className="absolute top-0 left-0 w-full h-40 z-10"
+        style={{
+          background: 'linear-gradient(to bottom, #1F1C41 0%, rgba(31, 28, 65, 0) 100%)', // Blend from next section color
+        }}
+      />
+
+      <div className="max-w-7xl mx-auto text-center relative z-20">
         <h3 className="text-sm md:text-base tracking-widest mb-8 uppercase text-gray-300">
           Our copy trading has been listed on
         </h3>

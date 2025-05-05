@@ -8,7 +8,7 @@ const CryptoWalletSection = () => {
         
         {/* Text Content Container - Comes First on Small Screens */}
         <div className="order-1 md:order-2 space-y-6">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-[60px] font-bold text-white tracking-tight">
             A crypto wallet from the future
           </h2>
           <p className="text-gray-400 text-lg sm:text-xl leading-relaxed">

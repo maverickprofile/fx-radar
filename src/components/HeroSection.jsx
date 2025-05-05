@@ -6,7 +6,7 @@ const HeroSection = () => {
       className="relative h-screen flex items-center justify-center px-6 sm:px-10 bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://img.freepik.com/free-vector/gradient-style-abstract-wireframe-background_23-2148993321.jpg?t=st=1746257075~exp=1746260675~hmac=3ce752c3dd80a54bb923cd88c08a425a301c6b40da73f42531f7dcbcd8982d47&w=1380')",
+          "url('/3d-abstract-soundwaves-background-with-flowing-lines.jpg')",
       }}
     >
       {/* Dark overlay */}
