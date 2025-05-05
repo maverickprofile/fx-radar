@@ -1,14 +1,9 @@
 import React from "react";
 
 const logos = [
-  "https://rmgcore2.s3.amazonaws.com/uploads/g1n4l8l/FPMarkets_Logo_204_70.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g1n544q/FXCM-Logo-Blue-on-White_204_70.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g0u868k/tickmill-logo-svg.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g20rc6l/IC_Markets_logo_204_70.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g20rknl/vantage-full-logo_204_70.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g1n4o66/Pepperstone_Logo_Primary_204_70.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g1qu3jp/eToro%20logo%20green_204_70.svg",
-  "https://dwptxtcjzzofa.cloudfront.net/uploads/g2j0jv4/AvaTrade_Logo_Tagline_White_Transperant_204_70.svg",
+  "https://d33vw3iu5hs0zi.cloudfront.net/media/logo_big_new_f7ebab0194.svg",
+  "https://www.vantagemarkets.com/wp-content/themes/vantage/images/logo.svg",
+  "https://cfi.trade/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewLogo.cfcea89b.svg&w=1920&q=75",
 ];
 
 const FeaturedSection = () => {
@@ -24,7 +19,7 @@ const FeaturedSection = () => {
 
       <div className="max-w-7xl mx-auto text-center relative z-20">
         <h3 className="text-sm md:text-base tracking-widest mb-8 uppercase text-gray-300">
-          Our copy trading has been listed on
+          Our copy trading broker support
         </h3>
 
         <div className="relative h-20 w-full overflow-hidden rounded-2xl backdrop-blur-md bg-white/10 border border-white/10 flex items-center">

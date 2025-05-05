@@ -9,10 +9,10 @@ const CryptoWalletSection = () => {
         {/* Text Content Container - Comes First on Small Screens */}
         <div className="order-1 md:order-2 space-y-6">
           <h2 className="text-3xl sm:text-4xl lg:text-[60px] font-bold text-white tracking-tight">
-            Our copy trading broker support: Excess Vantage CFI
+            State of art EA from the future. 
           </h2>
           <p className="text-gray-400 text-lg sm:text-xl leading-relaxed">
-          Seamless copy trading with Excess, Vantage & CFI. Leverage our state-of-the-art EA for a future-forward trading edge.
+          Seamless copy trading with Exness, Vantage & CFI. Leverage our state-of-the-art EA for a future-forward trading edge.
 </p>
 
           {/* Feature List */}
