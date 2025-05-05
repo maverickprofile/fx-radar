@@ -6,7 +6,7 @@ const HeroSection = () => {
       className="relative h-screen flex items-center justify-center px-6 sm:px-10 bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('/3d-abstract-soundwaves-background-with-flowing-lines.jpg')",
+          "url('/music-equalizer-technology-black-background-with-purple-digital-sound-wave_53876-116188.jpg')",
       }}
     >
       {/* Dark overlay */}
@@ -27,7 +27,7 @@ const HeroSection = () => {
           Join our copy trading platform with the advantage of state-of-the-art EA.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 px-2 sm:px-0">
-          <button className="bg-[#6C5DD3] hover:bg-[#5945c6] text-white lg:w-auto sm:w-[30px] px-6 py-3 rounded-full font-semibold transition text-lg">
+          <button className="bg-[#6C5DD3] hover:bg-[#542859] text-white lg:w-auto sm:w-[30px] px-6 py-3 rounded-full font-semibold transition text-lg">
             JOIN NOW
           </button>
         </div>

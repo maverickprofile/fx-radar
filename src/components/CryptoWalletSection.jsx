@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wallet, Zap, Lock } from 'lucide-react';
+import { Wallet, Zap, Lock, CreditCard } from 'lucide-react';
 
 const CryptoWalletSection = () => {
   return (
@@ -9,12 +9,11 @@ const CryptoWalletSection = () => {
         {/* Text Content Container - Comes First on Small Screens */}
         <div className="order-1 md:order-2 space-y-6">
           <h2 className="text-3xl sm:text-4xl lg:text-[60px] font-bold text-white tracking-tight">
-            A crypto wallet from the future
+            Our copy trading broker support: Excess Vantage CFI
           </h2>
           <p className="text-gray-400 text-lg sm:text-xl leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque orci amet, amet consectetur eget
-            suspendisse in. Adipiscing vitae dignissim facilisi ut.
-          </p>
+          Seamless copy trading with Excess, Vantage & CFI. Leverage our state-of-the-art EA for a future-forward trading edge.
+</p>
 
           {/* Feature List */}
           <div className="space-y-4">
@@ -22,19 +21,26 @@ const CryptoWalletSection = () => {
               <div className="bg-[#6C4FFC] p-2 rounded-full">
                 <Wallet className="w-6 h-6 text-white" />
               </div>
-              <span className="text-lg font-semibold text-white">Lowest fees in market</span>
+              <span className="text-lg font-semibold text-white">Low Drawdown</span>
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-[#6C4FFC] p-2 rounded-full">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <span className="text-lg font-semibold text-white">Fast and secure transactions</span>
+              <span className="text-lg font-semibold text-white">Quick scaling</span>
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-[#6C4FFC] p-2 rounded-full">
-                <Lock className="w-6 h-6 text-white" />
+              <Lock className="w-6 h-6 text-white" />
+              
               </div>
-              <span className="text-lg font-semibold text-white">256-bit secure encryption</span>
+              <span className="text-lg font-semibold text-white">Secured trades</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="bg-[#6C4FFC] p-2 rounded-full">
+              <CreditCard className="w-6 h-6 text-white" />
+              </div>
+              <span className="text-lg font-semibold text-white">Easy depoint & withdrawal from broker</span>
             </div>
           </div>
 

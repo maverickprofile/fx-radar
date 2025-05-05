@@ -110,10 +110,10 @@ const CopyTradingFeaturesSection = () => {
                         ref={centerCardRef}
                     >
                         <div className="bg-[#6C4FFC] rounded-2xl pt-8 pr-8 pl-8 pb-0 w-full max-w-md text-center relative overflow-hidden h-[460px]">
-                            <h3 className="text-white text-xl font-semibold mb-4">Mobile Trading App</h3>
-                            <p className="text-white text-sm mb-6">
-                                Trade on the go with our intuitive and powerful mobile app.
-                            </p>
+                        <h3 className="text-white text-xl font-semibold mb-4">Test Your Strategies</h3>
+  <p className="text-white text-sm mb-6">
+    Backtest your trading ideas with historical data and see how they could have performed. Optimize your approach.
+  </p>
                             <div className="relative h-[220px] flex justify-center items-start">
                                 <img
                                     src="/phone mockup.png"

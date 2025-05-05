@@ -7,14 +7,13 @@ const CryptoDownloadSection = () => {
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left py-20 px-6 lg:px-20 z-10">
           <h2 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
-            Try the future, today.<br />
-            <span className="text-white">Download Crypto</span>
+           Try the EA based Copy Trading today.<br />
           </h2>
           <p className="text-base sm:text-lg text-white/80 mb-8 max-w-md lg:mx-0">
-            Manage your cryptocurrency portfolio with ease. Track price trends, monitor changes, and trade securely—all in one intuitive app.
-          </p>
+  Start experiencing the future of trading with our EA-powered copy trading platform. Join FxRadar today for effortless automation and potentially profitable results.
+</p>
           <button className="bg-white text-[#7B4DF7] font-bold py-3 px-8 rounded-full shadow-md hover:scale-105 transition duration-300">
-            DOWNLOAD APP
+            JOIN NOW
           </button>
         </div>
 

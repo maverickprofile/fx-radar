@@ -7,13 +7,12 @@ const RobustPlatformSection = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text Content Container */}
         <div className="space-y-6 z-10">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white tracking-tight">
-            Built on a robust and powerful platform
-          </h2>
-          <p className="text-gray-400 text-lg sm:text-xl leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque orci amet, amet consectetur eget
-            suspendisse in. Adipiscing vitae dignissim facilisi ut.
-          </p>
+        <h2 className="text-3xl sm:text-4xl lg:text-[60px] font-bold text-white tracking-tight">
+  Experience Secure & Profitable Copy Trading with Expert Support
+</h2>
+<p className="text-gray-400 text-lg sm:text-xl leading-relaxed">
+  Trade with confidence on our secure platform, designed for consistent returns. Benefit from a proven track record of 10-20% monthly ROI, backed by our dedicated 24/5 support team, always ready to assist you.
+</p>
 
           {/* Feature List */}
           <div className="space-y-4">
@@ -21,19 +20,19 @@ const RobustPlatformSection = () => {
               <div className="bg-[#6C4FFC] p-2 rounded-full">
                 <ShieldCheck className="w-6 h-6 text-white" />
               </div>
-              <span className="text-lg font-semibold text-white">100% Private data</span>
+              <span className="text-lg font-semibold text-white">Secured trades</span>
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-[#6C4FFC] p-2 rounded-full">
                 <Percent className="w-6 h-6 text-white" />
               </div>
-              <span className="text-lg font-semibold text-white">99.99% Uptime guarantee</span>
+              <span className="text-lg font-semibold text-white">10-20% ROI/month</span>
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-[#6C4FFC] p-2 rounded-full">
                 <Headset className="w-6 h-6 text-white" />
               </div>
-              <span className="text-lg font-semibold text-white">24/7 Dedicated support</span>
+              <span className="text-lg font-semibold text-white">24/5 Dedicated support</span>
             </div>
           </div>
         </div>
