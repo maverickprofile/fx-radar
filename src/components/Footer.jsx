@@ -28,20 +28,20 @@ const Footer = () => {
         </div>
 
         {/* Menu and Utility Pages */}
-        <div className="grid grid-cols-2 gap-10 sm:gap-16 lg:gap-20 lg:pr-20">
+        <div className="grid grid-cols-2 gap-10 sm:gap-16 lg:gap-20">
           <div>
             <h4 className="text-lg font-semibold mb-4">Menu</h4>
             <ul className="space-y-2 text-sm text-white/80">
               <li><a href="#" className="hover:text-white">Home</a></li>
               <li><a href="#" className="hover:text-white">About Us</a></li>
-              <li><a href="#" className="hover:text-white">Strategies</a></li>
+              {/* <li><a href="#" className="hover:text-white">Strategies</a></li> */}
               <li><a href="#" className="hover:text-white">Pricing</a></li>
-              <li><a href="#" className="hover:text-white">Blog</a></li>
+              {/* <li><a href="#" className="hover:text-white">Blog</a></li> */}
               <li><a href="#" className="hover:text-white">Contact</a></li>
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Utility Pages</h4>
             <ul className="space-y-2 text-sm text-white/80">
               <li><a href="#" className="hover:text-white">Start Here</a></li>
@@ -50,7 +50,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white">Licenses</a></li>
               <li><a href="#" className="hover:text-white">Changelog</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

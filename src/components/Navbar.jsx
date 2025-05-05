@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,12 +33,12 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6 text-white font-medium">
-          <a href="#" className="hover:text-gray-300">Home</a>
-          <a href="#" className="hover:text-gray-300">About</a>
-          <a href="#" className="hover:text-gray-300">Pricing</a>
-          <a href="#" className="hover:text-gray-300">Tokens</a>
+          <Link to="/" className="hover:text-gray-300">Home</Link> {/* Assuming '/' is your homepage route */}
+          <Link to="/about" className="hover:text-gray-300">About</Link> {/* Assuming '/about' is your about page route */}
+          <Link to="/pricing" className="hover:text-gray-300">Pricing</Link> {/* Link to your PricingPage */}
+          {/* <a href="#" className="hover:text-gray-300">Tokens</a>
           <a href="#" className="hover:text-gray-300">Blog</a>
-          <a href="#" className="hover:text-gray-300">Pages</a>
+          <a href="#" className="hover:text-gray-300">Pages</a> */}
         </div>
 
         {/* Right - Button + Mobile Menu Toggle */}
@@ -66,12 +67,12 @@ const Navbar = () => {
       {/* Fullscreen Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-40 bg-white/10 backdrop-blur-xl flex flex-col items-center justify-center text-white text-2xl space-y-8 font-semibold px-8">
-          <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Home</a>
-          <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">About</a>
-          <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Pricing</a>
-          <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Tokens</a>
+          <Link to="/" onClick={toggleMobileMenu} className="hover:text-gray-300">Home</Link>
+          <Link to="/about" onClick={toggleMobileMenu} className="hover:text-gray-300">About</Link>
+          <Link to="/pricing" onClick={toggleMobileMenu} className="hover:text-gray-300">Pricing</Link> {/* Link to your PricingPage */}
+          {/* <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Tokens</a>
           <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Blog</a>
-          <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Pages</a>
+          <a href="#" onClick={toggleMobileMenu} className="hover:text-gray-300">Pages</a> */}
           <button
             className="bg-[#5C49C8] text-white text-lg py-2 px-6 rounded-full mt-4"
             onClick={toggleMobileMenu}
