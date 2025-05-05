@@ -187,7 +187,7 @@
     }
   
     .animate-marquee {
-      animation: marquee 150s linear infinite;
+      animation: marquee 90s linear infinite;
     }
   }
   
