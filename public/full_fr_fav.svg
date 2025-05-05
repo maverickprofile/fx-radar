@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6c5cd6;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #1a1838;
+      }
+
+      .cls-3 {
+        fill: #6f5ccf;
+        filter: url(#drop-shadow-2);
+      }
+    </style>
+    <filter id="drop-shadow-1" x="218.28" y="72.6" width="669.84" height="958.32" filterUnits="userSpaceOnUse">
+      <feOffset dx="13.16" dy="13.16"/>
+      <feGaussianBlur result="blur" stdDeviation="13.16"/>
+      <feFlood flood-color="#000" flood-opacity=".2"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="240.36" y="628.92" width="644.4" height="404.88" filterUnits="userSpaceOnUse">
+      <feOffset dx="13.16" dy="13.16"/>
+      <feGaussianBlur result="blur-2" stdDeviation="13.16"/>
+      <feFlood flood-color="#000" flood-opacity=".2"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-2" width="1080" height="1080"/>
+  <g>
+    <path class="cls-1" d="M835.27,610.5c0,10.04-14.06,51.81-49.14,72.69-35.1,20.88-513.82,294.92-513.82,294.92l-3.57-190.44s4.42-45.17,31.97-66.88c27.58-21.73,294.09-173.69,294.09-173.69,0,0,.38-.24,1.09-.7-131.64-73.25-286.06-160.06-309.41-176.87-41.75-30.08-41.75-100.25-41.75-116.96V99s246.14,137.54,405.58,230.97c.15.09.32.19.47.26,48.1,26.73,135.98,75.75,142.02,80.6,8.37,6.69,34.4,26.73,38.44,64.33,4.02,37.6,4.02,125.32,4.02,135.34Z"/>
+    <path class="cls-3" d="M489.27,853.84l-216.95,124.27s-8.38-118.82-4.39-186.37c1.25-21.22,7.36-33.54,10.66-40.47,4.18-8.77,11.19-20.71,22.13-30.48,32.82-29.33,89.26-56.81,116.83-61.83,36.76-6.68,120.31-6.68,172.1,26.73,51.8,33.42,242.28,294.08,242.28,294.08,0,0-195.67,3.66-220.56-1.67-23.39-5.01-36.97-15.16-68.84-51.38-15.41-17.51-36.92-44.55-53.25-72.89Z"/>
+  </g>
+</svg>
