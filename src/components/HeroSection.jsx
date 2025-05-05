@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
-        src="https://videocdn.cdnpk.net/videos/1fecd02a-a569-5a51-85ba-46fbc6b46713/horizontal/previews/clear/large.mp4?token=exp=1746433904~hmac=fe2bee70673f9e17746815ccab7185f15cc45471aaafb9fc0e2744c839dcd393" // replace with your actual video path
+        src="/large (5).mp4" // replace with your actual video path
         autoPlay
         loop
         muted
