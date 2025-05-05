@@ -27,10 +27,11 @@ const FeaturedSection = () => {
             {[...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos].map((src, index) => (
               <div key={index} className="flex-shrink-0 px-4 flex items-center justify-center"> {/* Added flex alignment */}
                 <img
-                  src={src}
-                  alt={`Logo ${index}`}
-                  className="h-10 object-contain max-w-[80px]" // Added max-w
-                />
+  src={src}
+  alt={`Logo ${index}`}
+  className="h-10 object-contain max-w-[80px] filter invert brightness-50" // White texture effect
+/>
+
               </div>
             ))}
           </div>
